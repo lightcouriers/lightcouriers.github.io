@@ -20,8 +20,6 @@
 
 </head>
 
-<body>
-
   <!-- <ul class="nav">
     <li><img class="logo" src="logo.png"></li>
     <li><a href="./graffiti-videos.html">About</a></li>
@@ -41,21 +39,34 @@
     <li><a href="./discord-server.html">Contact</a></li>
   </ul>
 </header>
-<div class="introbox"><h1>Better by bike.</h1><p>Canberra Metro Bike Messengers</p>
-<a href="example" class="button1">BOOK NOW</a></div>
 
-<img class="curve" src="Assets/webcurve.png">
+<body>
+
+<div class="introbox"><h1>Better by bike.</h1><p>Canberra Metro Bike Messengers</p>
+  <a href="example" class="button1">BOOK NOW</a>
+</div>
+
+<div class="curvecontainer">
+  <img class="curve" src="Assets/webcurve.png">
+</div>
+
+<div class="mapcontainer">
+  <img class="map" src="Assets/map1.png">
+    </div>
 
 <div class="main">
-    <h2>Operating hours:</h2>
-	  <p>Monday - Friday: 9:00am - 5:00pm</p>
-    <p>For any deliveries outside this period, please <a class="colourtext">contact us</a>.</p>
-    <h2>Need us now?</h2>
-	  <p>Give us a call on <a class="colourtext">04000000</a> to schedule a pickup.</p>
-    <h2>Want to know more?</h2>
-	  <p>Keep scrolling for more information or see below to learn more about us and our pricing.</p>
-    <a href="example" class="button2">Pricing</a><a href="example" class="button3">About Us</a></div>
-  </div>
+  <h2>Operating hours:</h2>
+	<p>Monday - Friday: 9:00am - 5:00pm</p>
+  <p>For any deliveries outside this period, please <a class="colourtext">contact us</a>.</p>
+  <h2>Need us now?</h2>
+	<p>Give us a call on <a class="colourtext">04000000</a> to schedule a pickup.</p>
+  <h2>Want to know more?</h2>
+	<p>Keep scrolling for more information or see below to learn more about us and our pricing.</p>
+  <a href="example" class="button2">Pricing</a><a href="example" class="button3">About Us</a>
+  <p>insert split image or graphic</p>
+  <h2>Next Section Title</h2>
+  <p>Next Section Text</p>
+</div>
 
 
 <div class="footer">
@@ -390,7 +401,7 @@ a.button3{
   line-height: 1.7;
   max-width: 100%;
   padding-top: 1em;
-  padding-bottom: 10em;
+  padding-bottom: 50em;
   position: relative;
   z-index: 2;
 
@@ -400,14 +411,18 @@ a.button3{
   padding-left: 10%;
 }
 
+.curvecontainer {
+  width: 100%;
+}
 
 .curve {
   display: table;
   position: relative;
   margin: 0 auto;
   z-index: 3;
-  top: 0;
+  top: 2em;
   height: auto;
+  max-width: 100%;
 }
 
 .colourtext {
@@ -439,6 +454,19 @@ a.button3{
 
 .icons:hover {
   opacity: 1;
+}
+
+.mapcontainer {
+  width: 30em;
+  position: relative;
+  z-index: 5;
+  float: right;
+  margin-top: 15em;
+}
+
+.map {
+  position: relative;
+  max-width: 30em;
 }
 
 </style>
