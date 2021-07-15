@@ -60,20 +60,29 @@
   <p>For any deliveries outside this period, please <a class="colourtext">contact us</a>.</p>
   <h2>Need us now?</h2>
 	<p>Give us a call on <a class="colourtext">04000000</a> to schedule a pickup.</p>
+  <p>You will be connected to a rider who will get to you as soon as possible.</p>
   <h2>Want to know more?</h2>
-	<p>Keep scrolling for more information or see below to learn more about us and our pricing.</p>
+	<p>Keep scrolling for more information or see below to learn more about us and our pricing.
+    Feel free to contact us for any further enquiries.
+  </p>
   <a href="example" class="button2">Pricing</a><a href="example" class="button3">About Us</a>
-  <p>insert split image or graphic</p>
-  <h2>Next Section Title</h2>
-  <p>Next Section Text</p>
 </div>
 
+<div class="dividercontainer">
+  <hr class="divider1" noshade>
+  <div class="fastcontainer">
+      <img src="Assets/fasticon2.png">
+    <h3>Fast.</h3>
+    <p>Skip parking. Straight to you, personal service.</p>
+</div>
+  <hr class="divider2" noshade>
+</div>
 
 <div class="footer">
-  <h2>Based in the Canberra CBD</h2>
+  <h2>Based in the Canberra CBD.</h2>
   <p>Contact us below:</p>
-  <a href="mailto:example@gmail.com"><img class="icons" src="Assets/mail.png"></a>
-  <a href="040000000"><img class="icons" src="Assets/phone.png"></a>
+  <a href="mailto:example@gmail.com"><img class="iconsfooter" src="Assets/mail.png"></a>
+  <a href="040000000"><img class="iconsfooter" src="Assets/phone.png"></a>
 </div>
 
 <style>
@@ -401,10 +410,13 @@ a.button3{
   line-height: 1.7;
   max-width: 100%;
   padding-top: 5em;
-  padding-bottom: 50em;
   position: relative;
   z-index: 2;
   padding-left: 10%;
+}
+
+.main p,h2 {
+  max-width: 50%;
 }
 
 .curvecontainer {
@@ -440,7 +452,7 @@ a.button3{
   
 }
 
-.icons {
+.iconsfooter {
   max-width: 2em;
   display: inline-block;
   margin: 0.5em;
@@ -448,9 +460,52 @@ a.button3{
   opacity: 0.8;
 }
 
-.icons:hover {
+.iconsfooter:hover {
   opacity: 1;
 }
+
+.dividercontainer {
+  width: 100%;
+  max-height: 15em;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  padding-left: 10%;
+  padding-top: 1em;
+  padding-bottom: 4em;
+}
+
+.fastcontainer{
+  width: 100%;
+  height: 8em;
+}
+
+.fastcontainer p,h3{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  max-width: 10em;
+  margin-left: 5em;
+}
+
+.fast {
+  width: 100%;
+  height: 8em;
+}
+
+.fastcontainer img{
+  float: left;
+  max-height: 5em;
+  display: block;
+  padding-bottom: 3em;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  vertical-align: middle;
+}
+
 
 .mapcontainer {
   width: 30em;
@@ -465,6 +520,26 @@ a.button3{
   max-width: 30em;
 }
 
+.divider1 {
+  left: 0;
+  max-width: 100%;
+  margin-right: 30%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: black;
+  opacity: 0.7;
+  }
+
+
+  .divider2 {
+  left: 0;
+  max-width: 100%;
+  margin-right: 30%;
+  margin-top: 0;
+  margin-bottom: 2em;
+  color: black;
+  opacity: 0.7;
+  }
 </style>
 
 </body>
