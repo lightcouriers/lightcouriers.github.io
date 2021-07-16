@@ -34,6 +34,10 @@
 
 <body>
 
+<div class="introline">
+    <h2>Got a specific delivery time in mind? Give us a <a class="color">call</a> to schedule.</h2>
+</div>
+
 <div class="pricingcontainer">   
         <img src="Assets/pricetable.png">
         <h2>Our Prices</h2>
@@ -146,13 +150,36 @@ header * {
     margin: auto;  
 }
 
+.introline {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.introline h2 {
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.color {
+    color: rgb(247,109,10);
+    opacity: 1;
+}
+
 .pricingcontainer {
     width: 80%;
     margin-left: 10%;
-    margin-top: 5em;
+    margin-top: 1em;
 }
 
-.pricingcontainer p,h2 {
+.pricingcontainer p {
+    display: table;
+    padding-left: 5%;
+    max-width: 20em;
+}
+
+.pricingcontainer h2 {
     display: table;
     padding-left: 5%;
     max-width: 20em;
