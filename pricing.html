@@ -38,7 +38,7 @@
     <h2>Got a specific delivery time in mind? Give us a <a class="color">call</a> to schedule.</h2>
 </div>
 
-<div class="pricingcontainer">   
+<div class="pricing">   
         <img src="Assets/pricetable.png">
         <h2>Our Prices</h2>
         <p>Rates are applicable for deliveries within the Canberra CBD area. See below for further details regarding our delivery zones.</p>
@@ -46,6 +46,13 @@
 </div> 
 
 <hr class="divider1" noshade>
+
+<div class="location">   
+    <img src="Assets/zones.png">
+    <h2>Delivery Zones</h2>
+    <p>Rates are applicable for deliveries within the Canberra CBD area. See below for further details regarding our delivery zones.</p>
+    <p>Surcharges may apply to zones outside the CBD. Feel free to give us a call to get a quote on a delivery.</p>
+</div> 
 
 <div class="footer">
     <h2>Based in the Canberra CBD.</h2>
@@ -176,7 +183,7 @@ header * {
     opacity: 1;
 }
 
-.pricingcontainer {
+.pricing {
     width: 40em;
     margin-left: 10%;
     margin-right: 30em;
@@ -187,34 +194,34 @@ header * {
     -ms-transition: all 1s;
 }
 
-.pricingcontainer p {
+.pricing p {
     display: table;
     padding-left: 5%;
     max-width: 20em;
 }
 
-.pricingcontainer h2 {
+.pricing h2 {
     display: table;
     padding-left: 5%;
     max-width: 20em;
 }
 
-.pricingcontainer p{
+.pricing p{
     color: black;
     font-size: 1.1em;
 }
 
-.pricingcontainer h2{
+.pricing h2{
     color: rgb(247,109,10);
 }
 
-.pricingcontainer img {
+.pricing img {
     max-width: 22em;
     max-height: 20em;
     text-align: top;
     float: left;
 }
-.pricingcontainer:hover {
+.pricing:hover {
     transform : scale(1.2);
  -moz-transform : scale(1.2);
  -webkit-transform : scale(1.2);
@@ -235,17 +242,67 @@ header * {
   max-width: 100%;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 8em;
-  margin-bottom: 10em;
+  margin-top: 4em;
+  margin-bottom: 4em;
   color: black;
   opacity: 0.7;
   }
+
+.location {
+    width: 40em;
+    margin-left: 10%;
+    margin-right: 30em;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+}
+
+.location p {
+    display: table;
+    padding-left: 5%;
+    max-width: 20em;
+}
+
+.location h2 {
+    display: table;
+    padding-left: 5%;
+    max-width: 20em;
+}
+
+.location p{
+    color: black;
+    font-size: 1.1em;
+}
+
+.location h2{
+    color: rgb(247,109,10);
+}
+
+.location img {
+    max-width: 22em;
+    max-height: 20em;
+    text-align: top;
+    float: left;
+}
+.location:hover {
+    transform : scale(1.2);
+ -moz-transform : scale(1.2);
+ -webkit-transform : scale(1.2);
+ -o-transform : scale(1.2);
+ -ms-transform : scale(1.2);
+ margin-left: 17%;
+    
+}
+
 
   .footer {
   position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
+  margin-top: 4em;
   padding-top: 4em;
   padding-bottom: 4em;
   padding-left: 10%;
