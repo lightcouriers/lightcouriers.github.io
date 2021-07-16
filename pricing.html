@@ -34,10 +34,12 @@
 
 <body>
 
-<div class="table">
-    <img src="Assets/pricetable.png">
-</div>
-
+<div class="pricingcontainer">   
+        <img src="Assets/pricetable.png">
+        <h2>Our Prices</h2>
+        <p>Rates are applicable for deliveries within the Canberra CBD area. See below for further details regarding our delivery zones.</p>
+        <p>Surcharges may apply to zones outside the CBD. Feel free to give us a call to get a quote on a delivery.</p>
+</div> 
 
 <style>
     html {
@@ -144,15 +146,41 @@ header * {
     margin: auto;  
 }
 
-.table {
-    max-width: 22em;
+.pricingcontainer {
+    width: 80%;
     margin-left: 10%;
     margin-top: 5em;
 }
 
-.table img {
-    max-width: 22em;
+.pricingcontainer p,h2 {
+    display: table;
+    padding-left: 5%;
+    max-width: 20em;
 }
+
+.pricingcontainer p{
+    color: black;
+    font-size: 1.1em;
+}
+
+.pricingcontainer h2{
+    color: rgb(247,109,10);
+}
+
+.pricingcontainer img {
+    max-width: 22em;
+    max-height: 20em;
+    text-align: top;
+    float: left;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  vertical-align: middle;
+}
+
 
 </style>
 </body>
