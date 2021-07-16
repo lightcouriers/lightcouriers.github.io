@@ -70,11 +70,19 @@
 
 <div class="dividercontainer">
   <hr class="divider1" noshade>
+
   <div class="fastcontainer">
       <img src="Assets/fasticon2.png">
     <h3>Fast.</h3>
     <p>Skip parking. Straight to you, personal service.</p>
-</div>
+  </div>
+
+  <div class="cheapcontainer">
+    <img src="Assets/cheapicon2.png">
+    <h3>Cost effective.</h3>
+    <p>Choose from different set rates varying on urgency.</p>
+  </div>
+
   <hr class="divider2" noshade>
 </div>
 
@@ -476,20 +484,17 @@ a.button3{
 }
 
 .fastcontainer{
-  width: 100%;
+  max-width: 20em;
   height: 8em;
+  max-height: 8em;
+  display: inline-block;
 }
 
 .fastcontainer p,h3{
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  max-width: 10em;
+  max-width: 15em;
   margin-left: 5em;
-}
-
-.fast {
-  width: 100%;
-  height: 8em;
 }
 
 .fastcontainer img{
@@ -497,6 +502,30 @@ a.button3{
   max-height: 5em;
   display: block;
   padding-bottom: 3em;
+  padding-right: 1em;
+}
+
+.cheapcontainer{
+  max-width: 25em;
+  max-height: 8em;
+  height: 8em;
+  display: inline-block;
+}
+
+.cheapcontainer p,h3{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  max-width: 15em;
+  margin-left: 5em;
+}
+
+.cheapcontainer img{
+  float: left;
+  max-height: 5em;
+  display: block;
+  padding-bottom: 3em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 .clearfix::after {
