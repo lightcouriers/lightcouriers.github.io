@@ -20,6 +20,137 @@
 
 </head>
 
+<header>
+    <ul class="nav">
+      <li><img class="logo" src="Assets/logo6.png"></li>
+      <li><a href="./graffiti-videos.html">About</a></li>
+      <li><a href="./pricing.html">Pricing</a></li>
+      <li><a href="./discord-server.html">Contact</a></li>
+    </ul>
+
+    <div class="introbox"><h1>Pricing</h1>
+      </div>
+</header>
+
 <body>
 
+<div class="table">
+    <img src="Assets/pricetable.png">
+</div>
+
+
+<style>
+    html {
+  height: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: black;
+  margin:0;
+  padding:0;
+	-webkit-perspective: 1px;
+	perspective: 1px;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  box-sizing: border-box;
+  min-height: 4vw;
+  height: 25em;
+  padding: 0 0 0;
+  position: relative;
+  -webkit-transform-style: inherit;
+  transform-style: inherit;
+  width: 100vw;
+  background-image: url("Assets/pricingbanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header * {
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  margin: 0;
+	padding: 1em 0;
+}
+
+.nav li{
+    display:inline;
+    width: 100%;
+    
+}
+.nav a{
+    margin-top: 1em;
+    padding:1em;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 1em;
+    border: 2px;
+    border-color: white;
+    text-transform: uppercase;
+    float: right;
+    margin-left: 1em;
+    margin-right: 2em;
+    border-color: rgb(247,109,10);
+    border-style: dashed;
+    transition: all 0.2s;
+
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-color: white;
+  
+}
+
+.logo {
+  max-width: 20em;
+  float: left;
+  margin-left: 10%;
+}
+
+.introbox h1{
+    color: white;
+    z-index: 4;
+    font-size: 3em;
+    margin: auto;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.introbox {
+    color: white;
+    z-index: 4;
+    top: 10em;
+    text-align: left;
+    position: absolute;
+    left: 10%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.68);
+    border-color: rgb(247,109,10);
+    border-style: dashed;
+
+    margin: auto;  
+}
+
+.table {
+    max-width: 22em;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+.table img {
+    max-width: 22em;
+}
+
+</style>
 </body>
