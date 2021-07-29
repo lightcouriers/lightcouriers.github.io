@@ -50,17 +50,28 @@
 <div class="location">   
     <img src="Assets/zones.png">
     <h2>Delivery Zones</h2>
-    <p>Rates are applicable for deliveries within the Canberra CBD area. See below for further details regarding our delivery zones.</p>
-    <p>Surcharges may apply to zones outside the CBD. Feel free to give us a call to get a quote on a delivery.</p>
+    <p>Set pricing within a highlighted zone. </p>
+    <p>Any deliveries outside highlighted areas are priced by operator.</p>
 </div> 
 
+<hr class="divider1" noshade>
+
+<div class="card">
+    <img src="Assets/cardcircle.png">   
+    <h2>Payment Methods</h2>
+    <p>We take cash and card!</p>
+    <p>Choose between payments by cash or card - or equally pay online via Paypal.</p>
+    <p>Our card payments are processed through Square.</p> 
+</div> 
+
+<footer>
 <div class="footer">
     <h2>Based in the Canberra CBD.</h2>
     <p>Contact us below:</p>
     <a href="mailto:example@gmail.com"><img class="iconsfooter" src="Assets/mail.png"></a>
     <a href="040000000"><img class="iconsfooter" src="Assets/phone.png"></a>
   </div>
-
+</footer>
 <style>
     html {
   height: 100%;
@@ -250,6 +261,7 @@ header * {
 
 .location {
     width: 40em;
+    height: 17em;
     margin-left: 10%;
     margin-right: 30em;
     transition: all 1s;
@@ -297,19 +309,69 @@ header * {
 }
 
 
+.card {
+    width: 40em;
+    height: 17em;
+    margin-left: 10%;
+    margin-right: 30em;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+}
+
+.card p {
+    display: table;
+    padding-left: 5%;
+    max-width: 20em;
+}
+
+.card h2 {
+    display: table;
+    padding-left: 5%;
+    max-width: 20em;
+}
+
+.card p{
+    color: black;
+    font-size: 1.1em;
+}
+
+.card h2{
+    color: rgb(247,109,10);
+}
+
+.card img {
+    width: 13em;
+    height: 13em;
+    margin-right: 0;
+    text-align: top;
+    float: left;
+}
+
+.card:hover {
+    transform : scale(1.2);
+ -moz-transform : scale(1.2);
+ -webkit-transform : scale(1.2);
+ -o-transform : scale(1.2);
+ -ms-transform : scale(1.2);
+ margin-left: 17%;
+    
+}
+
   .footer {
   position: relative;
   left: 0;
   bottom: 0;
-  width: 100%;
   margin-top: 4em;
+  width: 100%;
   padding-top: 4em;
   padding-bottom: 4em;
   padding-left: 10%;
   background-color: black;
   color: rgb(255,255,255, 0.8);
   text-align: left;
-  z-index: 4;
   
 }
 
@@ -326,3 +388,5 @@ header * {
 }
 </style>
 </body>
+
+</html>
